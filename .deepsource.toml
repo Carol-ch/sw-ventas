@@ -5,3 +5,24 @@ name = "php"
 
 [[analyzers]]
 name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "angular",
+    "vue",
+    "ember",
+    "meteor",
+    "angularjs"
+  ]
+  environment = [
+    "nodejs",
+    "jquery",
+    "mongo",
+    "browser",
+    "jest",
+    "cypress",
+    "vitest",
+    "mocha",
+    "jasmine"
+  ]
